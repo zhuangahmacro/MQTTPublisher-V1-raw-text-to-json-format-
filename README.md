@@ -20,7 +20,7 @@ After user clicked on "JSON" button, they are able to choose which preset to fil
 ![previwe3](https://user-images.githubusercontent.com/81346846/112432857-6bdc6880-8d7c-11eb-9c7d-13bcc9d3f1d6.png)
 ![image](https://user-images.githubusercontent.com/81346846/112433740-a1ce1c80-8d7d-11eb-8549-606719b58651.png)
 
-After user declaring all the keyname, start and end index, they can click on `Review JSON` and a new window will be prompt to view their Json formatted file (The raw files is already being converted to json format with the help of index slicing). Next, users can also view the JSON schema by `View JSON Schema`, all the data will now be convert to json schema with the help of `Genson library`. 
+After user declared all the keynames, start and end index, they can click on `Review JSON` and a new window will be prompt to view their Json formatted file (The raw files is already being converted to json format with the help of index slicing). Next, users can also view the JSON schema by `View JSON Schema`, all the data will now be convert to json schema with the help of `Genson`. 
 **This is what i've done on the version 1** 
 
 # Limitation 
@@ -36,5 +36,5 @@ After user declaring all the keyname, start and end index, they can click on `Re
 2) To solve the vulnerability of the SQL, we could encrypt the PostgreSQL credentials. Futhermore, we could also export the .py to executable files in order to make code unreadable 
 3) To improve the efficiency of the program, we could implement different library instead of writing a long polling code. (The priority of this is not high, because it doesnt affect the main function)
 4) In order to have an organized json schema format, we could prettify the output by using `pprint` or other formatter library (Priority is not high)
-5) Since the `json dumps` can only return string, maybe i can use `json loads` to return json objects only.
+5) Since the `json dumps` can only return string, maybe i can use `json loads` to return json objects.
 6) `Download` function can be implement to download the json file and json schema. (Already in progresss)
