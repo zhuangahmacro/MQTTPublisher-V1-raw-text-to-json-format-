@@ -4,7 +4,7 @@ This is a MQTT publisher program that allow users to browse server's files throu
 # How to install
 1) The first steps is to git clone by using this command ``git clone https://github.com/zhuangahmacro/MQTTPublisher-V1-raw-text-to-json-format-.git``
 2) Install the requirement by using ``pip install -r requirements.txt`` (If requirement is not install properly, please run it on PyCharm)
-3) Since this program is using a PostgreSQL, user need to download the program and import the `database` file to it. (Database username and password can be change in the `client.py`)
+3) Since this program is using PostgreSQL, user need to download the program and import the `database` file to it. (Database username and password can be change in the `client.py`)
 4) Run the `server.py` on your server
 5) After `server.py` run successfully, open up `client.py` and enter the Ip address of ur server and click connect. 
 
